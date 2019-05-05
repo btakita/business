@@ -16,7 +16,7 @@
 	export let a1__name
 </script>
 
-<h1>👋 Welcome</h1>
+<h1>Holochain</h1>
 
 {#each a1__name as name}
 	<a href="/holochain/{name}">{name}</a>
