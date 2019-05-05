@@ -30,7 +30,7 @@ I have been developing software practices based on a
 * patterns of definition
 * globally unique names
 * flat data structures
-* reactive data flow
+* functional reactive data flow
 
 I have discovered that an enterprise-wide global domain language from business literature to code,
 	results in a reduction of software & abstraction mapping needed to encapsulate ambiguous naming.
@@ -58,7 +58,7 @@ My applicable experience lies crafting solutions that scale with complexity, int
 While this practice is relatively young, I have obtained knowhow in creating a complex ecosystem of reuasable
 	apps, components, & services which can be reused as a catalog of starter projects varying in domain specificity.
 
-My core libraries serve as the best indicator of example of my ability to architect composable systems that are
+My core libraries serve as the best indicator of example of my ability to architect composable systems that are:
 
 * free of runtime framework dependencies
 * small in payload
@@ -66,9 +66,31 @@ My core libraries serve as the best indicator of example of my ability to archit
 * fast in execution
 * customizable for each development environment context
 
-I'm happy to give a demo of the development environment as well.
+I am grateful for our investigation, as I created another repository for
+	<a target="_blank" href="https://github.com/btakita/business">public business</a> matters.
+This project was forked from progress made with the
+	<a target="_blank" href="https://github.com/btakita/holochain-developer-prototype">holochain-developer-prototype</a>
+	repo.
+I also extracted common code into ctx-core libraries (
+	<a target="_blank" href="https://github.com/ctx-core/ctx-core/tree/master/packages/highlight.js">
+		@ctx-core/highlight.js
+	</a> &
+	<a target="_blank" href="https://github.com/ctx-core/ctx-core/tree/master/packages/markdown">
+		@ctx-core/markdown
+	</a>).
+I engaged in a process of concurrent development between the three repositories (2 apps & 2 libraries in ctx-core).
+I also used
+	<a target="_blank" href="https://lerna.js.org/">lerna.js</a> to manage the monorepo,
+	<a target="_blank" href="https://direnv.net/">direnv</a>,
+	& custom scripts.
+This is a good case of developing multiple apps & libraries concurrently, which I'm happy to provide a
+	free code review with anybody on your team who is interested.
 
-As stated earlier, there has been confusion over our offerings, capabilities, & focus.
+Regardless of the outcome, I have created a systematic way of development where my practice is always moving
+	forward in a cogent way.
+A Meta-Philosophy-backed domain language methodology ensures framework development that scales with complexity
+	across a multitude of organizations, applications, libraries, platforms, 3rd party apis
+	while facilitating precise movement of abstraction to the appropriate library.
 
 Sincerely, \
 Brian

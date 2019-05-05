@@ -7,6 +7,7 @@
 		"build": "sapper build --legacy",
 		"export": "sapper export --legacy",
 		"start": "node __sapper__/build",
+		"deploy": "npm run export && surge __sapper__/export btakita-business.surge.sh",
 		"cy:run": "cypress run",
 		"cy:open": "cypress open",
 		"test": "run-p --race dev cy:run"
@@ -17,6 +18,7 @@
 		"@ctx-core/font-awesome": "^7.9.0",
 		"@ctx-core/function": "^6.0.0",
 		"@ctx-core/nav": "^6.2.1",
+		"@ctx-core/object": "^3.3.0",
 		"@ctx-core/sapper": "^5.2.14",
 		"@ctx-core/store": "^9.1.2",
 		"@ctx-core/theme": "^1.0.1",
@@ -26,8 +28,6 @@
 		"sirv": "^0.4.0"
 	},
 	"devDependencies": {
-		"@ctx-core/nav": "^6.2.1",
-		"@ctx-core/object": "^3.3.0",
 		"chokidar": "^3.0.0",
 		"lerna": "^3.13.4",
 		"npm-check-updates": "^3.1.9",
@@ -42,6 +42,7 @@
 		"rollup-plugin-svelte": "^5.0.3",
 		"rollup-plugin-terser": "^4.0.4",
 		"sapper": "alpha",
+		"surge": "^0.20.4",
 		"svelte": "^3.2.0"
 	}
 }
