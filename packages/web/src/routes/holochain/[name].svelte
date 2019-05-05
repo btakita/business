@@ -20,4 +20,4 @@
 
 {@html content.html}
 
-<A__Edit href="/build/install/_content/{name}.md"></A__Edit>
+<A__Edit href="/holochain/_content/{name}.md"></A__Edit>
