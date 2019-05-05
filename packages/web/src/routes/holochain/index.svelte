@@ -18,8 +18,21 @@
 
 <h1>Holochain</h1>
 
-{#each a1__name as name}
-	<a href="/holochain/{name}">{name}</a>
-{/each}
+<table>
+	{#each a1__name as name}
+		<tr>
+			<td><a href="/holochain/{name}">{name}</a></td>
+			<td><A__Edit href="/holochain/_content/{name}.md"></A__Edit></td>
+		</tr>
+	{/each}
+</table>
 
-<A__Edit href="/holochain/_content"></A__Edit>
+<style type="text/scss">
+	table {
+		tr {
+			td {
+				padding: 1rem;
+			}
+		}
+	}
+</style>
