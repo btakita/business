@@ -31,7 +31,7 @@
 	table {
 		tr {
 			td {
-				padding: 1rem;
+				padding: 0 1rem;
 			}
 		}
 	}
