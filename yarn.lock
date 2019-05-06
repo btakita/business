@@ -7770,10 +7770,10 @@ surge@^0.20.4:
     tarr "1.0.3"
     url-parse-as-address "1.0.0"
 
-svelte@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.2.0.tgz#92e4208178ccd9ecfd7ca931a9c38e64434f0f73"
-  integrity sha512-i/FSWUcqVw9JBo9bY69/ZI89WCCpyhdWjvAroOroI4qnQboh0WGlgjnFOEKOTvlv1XONd8cVpRGbOYYE3Ec6TQ==
+svelte@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.2.1.tgz#2bd89dbb49de623cea72730a4acaf92b4c1ec8e4"
+  integrity sha512-DH3WZHua5t87AjvCx8gU5cLQlhRF/KCyRWLpz4TXWwDVs1FEibIhXTXUWRd0EqU8/m/1e4stzL4MnboF8LxyHg==
 
 swap-case@^1.1.0:
   version "1.1.2"
