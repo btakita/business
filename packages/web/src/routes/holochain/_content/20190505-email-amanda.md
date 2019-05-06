@@ -12,7 +12,7 @@ The intention of our offering was as follows.
 I (Brian) would be offering development & documentation services.
 I was to be the subject of the position that we have been discussing.
 For this project, Tracy was to assist me in client communication, attending meetings,
-	design & systems ideas/feedback, writing, etc.
+	design & systems ideas/feedback, writing, Neuro-Linguistic Programming, etc.
 She has been immensely helpful for several projects & it's highly beneficial to continue investing in
 	this collaboration.
 
