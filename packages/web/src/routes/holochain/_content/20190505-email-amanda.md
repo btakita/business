@@ -86,10 +86,15 @@ I also used
 This is a good case of developing multiple apps & libraries concurrently, which I'm happy to provide a
 	free code review with anybody on your team who is interested.
 
-Regardless of the outcome, I have created a systematic way of development where my practice is always moving
-	forward in a cogent way.
-A Meta-Philosophy-backed domain language methodology ensures framework development that scales with complexity
-	across a multitude of organizations, applications, libraries, platforms, 3rd party apis
+Natural Language Processing & code parse trees can also be utilized to
+	analyze & link code in the Holochain Core, libraries, & application ecosystem
+	with curated content (documentation, newsletters, blogs), creating a graph of content.
+
+Regardless of the outcome, I have created a systematic way of development
+	where my practice is always moving forward in a cogent way.
+A Meta-Philosophy-backed domain language methodology ensures framework development
+	that scales with complexity across a multitude of
+	organizations, applications, libraries, platforms, 3rd party apis
 	while facilitating precise movement of abstraction to the appropriate library.
 
 Sincerely, \
