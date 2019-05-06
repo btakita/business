@@ -3,10 +3,10 @@
 		const { name } = params
 		const response = await this.fetch(`/holochain/${name}.json`)
 		const json = await response.json()
-		const { content } = json
+		const { content__md } = json
 		return {
 			name,
-			content
+			content__md
 		}
 	}
 </script>
@@ -15,9 +15,9 @@
 	import A__Edit from '../../layout/A__Edit.svelte'
 	import { __url__edit__source } from '../../layout/store'
 	export let name
-	export let content
+	export let content__md
 </script>
 
-{@html content.html}
+{@html content__md.html}
 
 <A__Edit href="/holochain/_content/{name}.md"></A__Edit>

@@ -88,7 +88,8 @@ This is a good case of developing multiple apps & libraries concurrently, which 
 
 Natural Language Processing & code parse trees can also be utilized to
 	analyze & link code in the Holochain Core, libraries, & application ecosystem
-	with curated content (documentation, newsletters, blogs), creating a graph of content.
+	with curated content (documentation, newsletters, blogs),
+	creating a graph of related entities with a UI to navigate the graph.
 
 Regardless of the outcome, I have created a systematic way of development
 	where my practice is always moving forward in a cogent way.
