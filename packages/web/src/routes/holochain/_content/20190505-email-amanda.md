@@ -86,7 +86,8 @@ I also used
 This is a good case of developing multiple apps & libraries concurrently, which I'm happy to provide a
 	free code review with anybody on your team who is interested.
 
-Natural Language Processing & code parse trees can also be utilized to
+If a global naming convention is adhered to,
+	Natural Language Processing & code parse trees can also be utilized to
 	analyze & link code in the Holochain Core, libraries, & application ecosystem
 	with curated content (documentation, newsletters, blogs),
 	creating a graph of related entities with a UI to navigate the graph.
