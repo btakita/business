@@ -1,6 +1,6 @@
 <script context="module">
 	export async function preload({ query, params }) {
-		const response = await this.fetch('/holochain.json')
+		const response = await this.fetch('/holochain/json')
 		const json = await response.json()
 		const { a1__name } = json
 		return {
