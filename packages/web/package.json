@@ -14,10 +14,10 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^5.1.0",
-		"@ctx-core/env": "^6.0.16",
-		"@ctx-core/font-awesome": "^7.9.1",
+		"@ctx-core/env": "^6.0.17",
+		"@ctx-core/font-awesome": "^7.9.2",
 		"@ctx-core/function": "^6.0.0",
-		"@ctx-core/nav": "^6.2.2",
+		"@ctx-core/nav": "^6.2.3",
 		"@ctx-core/object": "^3.3.0",
 		"@ctx-core/sapper": "^5.2.16",
 		"@ctx-core/store": "^9.1.4",
