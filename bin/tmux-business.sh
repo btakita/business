@@ -2,6 +2,8 @@
 BUSINESS_DIR_DEFAULT=~/work/business/
 BUSINESS_DIR="${BUSINESS_DIR:-$BUSINESS_DIR_DEFAULT}"
 
+tmux rename-session business
+
 cd $BUSINESS_DIR
 
 tmux rename-window business
