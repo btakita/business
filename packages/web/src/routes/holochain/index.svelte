@@ -22,7 +22,7 @@
 	{#each a1__name as name}
 		<tr>
 			<td><a href="/holochain/{name}">{name}</a></td>
-			<td><A__Edit href="/holochain/_content/{name}.md"></A__Edit></td>
+			<td><A__Edit href="/holochain/[name]/_content/{name}.md"></A__Edit></td>
 		</tr>
 	{/each}
 </table>
