@@ -10,6 +10,12 @@ If there is a contract between Holochain & us, we are also willing to waive this
 Regardless of our future relationship, we are excited about the developments within the Holochain ecosystem
 	and will continue to follow & participate.
 
+<!-- ## Intention -->
+<h2>
+	<img src="/icons/history-solid.svg?style=fill:grey;" alt="Intention"/>
+	Intention
+</h2>
+
 The intention of our offering was as follows.
 I (Brian) would be offering development & documentation services.
 I was to be the subject of the position that we have been discussing.
@@ -22,6 +28,12 @@ A negotiation on rates took place, resulting in a **price point well below indus
 	full stack developer who can create a scalable system of components, practices, documentation,
 	cloud-based interactive development environment, & starter apps using the Holochain application stack.
 Tracy is to be an addition to our offering, rather than the focus.
+
+<!-- ## Domain Language & Patterns -->
+<h2>
+	<img src="/icons/language-solid.svg?style=fill:grey;" alt="Domain Language & Patterns" />
+	Domain Language & Patterns
+</h2>	
 
 I face some similar challenges to Holochain.
 How to communicate a framework of tools, both of abstract forms & tangible software,
@@ -45,6 +57,12 @@ I have a couple of blog posts describing naming convention that adheres to the g
 		Multi Underscore Tag Naming Convention Analysis
 	</a>
 
+<!-- ## Code -->
+<h2>
+	<img src="/icons/code-solid.svg?style=fill:grey;" alt="Code" />
+	Code
+</h2>	
+
 I have created the <a target="_blank" href="https://github.com/ctx-core/ctx-core">ctx-core</a> library,
 	which is a composable monorepo used in several of my projects.
 During this development, I have formed techniques to develop & reuse:
@@ -61,18 +79,36 @@ My applicable experience lies crafting solutions that scale with complexity, int
 While this practice is relatively young, I have obtained knowhow in creating a complex ecosystem of reusable
 	apps, components, & services which can be reused as a catalog of starter projects varying in domain specificity.
 
-My core libraries serve as the best indicator of example of my ability to architect composable systems that are:
+My core libraries serve as the best indicator of example of my ability to architect composable systems that have:
 
-* free of runtime framework dependencies
-* small in payload
-* low in memory usage
-* fast in execution
-* customizable for each development environment context
+* no runtime framework dependencies
+* small payload
+* low memory usage
+* performant
+* forking & multi-tenant capabilities built into the process
+
+<!-- ## Technical Alignment -->
+<h2>
+	<img src="/icons/sync-solid.svg?style=fill:grey;" alt="Technical Alignment"/>
+	Technical Alignment
+</h2>
+
+I also have a General Systems Theory model to my practice.
+General Systems Theory finds patterns across all systems & much headway is gained when considering
+ Open Systems, which includes biology (biomimicry), culture, & software development.
+
+<!-- ## A Quick & Rough Example of Development Process -->
+<h2>
+	<img src="/icons/laptop-code-solid.svg?style=fill:grey;" alt="A Quick & Rough Example of Development Process"/>
+	A Quick & Rough Example of Development Process
+</h2>
 
 I am grateful for our investigation.
 This situation has inspired some tech & will also lead to a more public portfolio of what I have to share.
 My challenge is that I'm bringing forth novel concepts & it's a challenge to articulate these concepts to
 	an audience coming from different contexts.
+One thing that makes me excited about Holochain is the alignment to natural processes.
+You asked for examples & I think demonstrating a process example best exemplifies the added value we can bring.
 
 I created a repository for
 	<a target="_blank" href="https://github.com/btakita/business">public business</a> matters.
@@ -97,10 +133,28 @@ I also used
 	<a target="_blank" href="https://lerna.js.org/">lerna.js</a> to manage the monorepo,
 	<a target="_blank" href="https://direnv.net/">direnv</a>,
 	& custom scripts.
-This is a good case of developing multiple apps & libraries concurrently, which I'm happy to provide a
+This is a use case of developing multiple apps & libraries concurrently, which I'm happy to provide a
 	free code review with anybody on your team who is interested.
+This is a work in progress & I'm looking for collaboration & investment,
+	preferably with clients who are aligned with the technical vision.
+	
+<!-- ## Custom Software -->
+<h2>
+	<img src="/icons/cogs-solid.svg?style=fill:grey;" alt="Custom Software" />
+	Custom Software
+</h2>
 
-If a global naming convention is adhered to,
+The advantage to using custom software, coupled with a framework that enables rapid iteration,
+	is that you can create a tailor-made documentation, development, & reading experience.
+	
+<!-- ## Potentialities -->
+<h2>
+	<img src="/icons/lightbulb-regular.svg?style=fill:grey;" alt="Potentialities" />
+	Potentialities
+</h2>
+
+There are many potential avenues of innovation, connectedness, neural growth.
+For example, if a global naming convention is adhered to,
 	Natural Language Processing & code parse trees can also be utilized to
 	analyze & link code in the Holochain Core, libraries, & application ecosystem
 	with curated content (documentation, newsletters, blogs),
@@ -112,7 +166,13 @@ A Meta-Philosophy-backed domain language methodology ensures framework developme
 	that scales with complexity across a multitude of
 	organizations, applications, libraries, platforms, 3rd party apis
 	while facilitating precise movement of abstraction to the appropriate library.
-More importantly, less time is wasted on concepts that are not Philosophically sound.
 
 Sincerely, \
 Brian
+
+<style>
+	h2 img {
+		width: 1rem;
+		height: 1rem;
+	}
+</style>
