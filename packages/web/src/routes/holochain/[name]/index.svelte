@@ -12,12 +12,10 @@
 </script>
 
 <script>
-	import A__Edit from '../../../layout/A__Edit.svelte'
-	import { __url__edit__source } from '../../../layout/store'
+	import A__Edit from '../../../content/A__Edit.svelte'
 	export let name
 	export let content__md
 </script>
 
 {@html content__md.html}
-
 <A__Edit href="/holochain/[name]/_content/{name}.md"></A__Edit>

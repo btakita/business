@@ -3,7 +3,9 @@ Dear Amanda,
 Thank you for your offer re: compensation for our work up to date.
 We go the extra mile for any of our paying clients.
 In this case, we are willing & able to consult without charge on any concepts
-	that have been presented in the holochain-developer-prototype demo.
+	that have been presented in the
+	<a target="_blank" href="http://holochain-developer-prototype.surge.sh/">holochain-developer-prototype</a>
+	demo.
 If there is a contract between Holochain & us, we are also willing to waive this charge.
 Regardless of our future relationship, we are excited about the developments within the Holochain ecosystem
 	and will continue to follow & participate.
@@ -56,7 +58,7 @@ During this development, I have formed techniques to develop & reuse:
 
 My applicable experience lies crafting solutions that scale with complexity, interactivity, & reuse potential
 	across the organization's domain.
-While this practice is relatively young, I have obtained knowhow in creating a complex ecosystem of reuasabled
+While this practice is relatively young, I have obtained knowhow in creating a complex ecosystem of reusable
 	apps, components, & services which can be reused as a catalog of starter projects varying in domain specificity.
 
 My core libraries serve as the best indicator of example of my ability to architect composable systems that are:
@@ -67,11 +69,22 @@ My core libraries serve as the best indicator of example of my ability to archit
 * fast in execution
 * customizable for each development environment context
 
-I am grateful for our investigation, as I created another repository for
+I am grateful for our investigation.
+This situation has inspired some tech & will also lead to a more public portfolio of what I have to share.
+My challenge is that I'm bringing forth novel concepts & it's a challenge to articulate these concepts to
+	an audience coming from different contexts.
+
+I created a repository for
 	<a target="_blank" href="https://github.com/btakita/business">public business</a> matters.
 This project was forked from progress made with the
 	<a target="_blank" href="https://github.com/btakita/holochain-developer-prototype">holochain-developer-prototype</a>
 	repo.
+	
+I have since created a
+	<a target="_blank" href="https://github.com/ctx-core/sapper-template/tree/ctx-core">template project</a>,
+	which itself is forked from the
+	<a target="_blank" href="https://github.com/sveltejs/sapper-template/tree/rollup">sapper template</a>.
+
 I also extracted common code into ctx-core libraries (
 	<a target="_blank" href="https://github.com/ctx-core/ctx-core/tree/master/packages/highlight.js">
 		@ctx-core/highlight.js
@@ -94,11 +107,12 @@ If a global naming convention is adhered to,
 	creating a graph of related entities with a UI to navigate the graph.
 
 Regardless of the outcome, I have created a systematic way of development
-	where my practice is always moving forward in a cogent way.
+	where my practice is always moving forward.
 A Meta-Philosophy-backed domain language methodology ensures framework development
 	that scales with complexity across a multitude of
 	organizations, applications, libraries, platforms, 3rd party apis
 	while facilitating precise movement of abstraction to the appropriate library.
+More importantly, less time is wasted on concepts that are not Philosophically sound.
 
 Sincerely, \
 Brian

@@ -9,6 +9,7 @@
 <style type="text/scss">
 	@import '../css/variables';
 	header {
+		height: 3rem;
 		padding: 1rem 0;
 		background: $color__header;
 	}

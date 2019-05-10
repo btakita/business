@@ -94,9 +94,12 @@
 		color: $color__a;
 	}
 	:global(.content-wrap) {
-		width: 100%;
+		width: $width__centering;
 		margin: 0 auto;
 		padding: 0 1.5rem;
+		@media (max-width: $width__centering) {
+			width: 100%;
+		}
 	}
 	:global(h1, h2, h3, h4, h5, h6, p, body, a, img, blockquote, pre) {
 		margin: 0;

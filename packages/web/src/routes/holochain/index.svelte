@@ -11,8 +11,7 @@
 
 <script>
 	import { basename } from 'path'
-	import A__Edit from '../../layout/A__Edit.svelte'
-	import { __url__edit__source } from '../../layout/store'
+	import A__Edit from '../../content/A__Edit.svelte'
 	export let a1__name
 </script>
 
