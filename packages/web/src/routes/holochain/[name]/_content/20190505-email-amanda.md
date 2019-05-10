@@ -12,7 +12,7 @@ Regardless of our future relationship, we are excited about the developments wit
 
 <!-- ## Intention -->
 <h2>
-	<img src="/icons/history-solid.svg?style=fill:grey;" alt="Intention"/>
+	<img src="/icons/history-solid.svg?style=fill:grey;" alt="Intention" rel=prefetch />
 	Intention
 </h2>
 
@@ -31,7 +31,7 @@ Tracy is to be an addition to our offering, rather than the focus.
 
 <!-- ## Domain Language & Patterns -->
 <h2>
-	<img src="/icons/language-solid.svg?style=fill:grey;" alt="Domain Language & Patterns" />
+	<img src="/icons/language-solid.svg?style=fill:grey;" alt="Domain Language & Patterns" rel=prefetch />
 	Domain Language & Patterns
 </h2>	
 
@@ -59,7 +59,7 @@ I have a couple of blog posts describing naming convention that adheres to the g
 
 <!-- ## Code -->
 <h2>
-	<img src="/icons/code-solid.svg?style=fill:grey;" alt="Code" />
+	<img src="/icons/code-solid.svg?style=fill:grey;" alt="Code" rel=prefetch />
 	Code
 </h2>	
 
@@ -140,7 +140,7 @@ This is a work in progress & I'm looking for collaboration & investment,
 	
 <!-- ## Custom Software -->
 <h2>
-	<img src="/icons/cogs-solid.svg?style=fill:grey;" alt="Custom Software" />
+	<img src="/icons/cogs-solid.svg?style=fill:grey;" alt="Custom Software" rel=prefetch />
 	Custom Software
 </h2>
 
@@ -149,7 +149,7 @@ The advantage to using custom software, coupled with a framework that enables ra
 	
 <!-- ## Potentialities -->
 <h2>
-	<img src="/icons/lightbulb-regular.svg?style=fill:grey;" alt="Potentialities" />
+	<img src="/icons/lightbulb-regular.svg?style=fill:grey;" alt="Potentialities" rel=prefetch />
 	Potentialities
 </h2>
 
