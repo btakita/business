@@ -15,9 +15,9 @@
 	"dependencies": {
 		"@ctx-core/dom": "^5.1.1",
 		"@ctx-core/env": "^6.0.17",
-		"@ctx-core/font-awesome": "^7.9.3",
+		"@ctx-core/font-awesome": "^7.11.0",
 		"@ctx-core/function": "^6.0.0",
-		"@ctx-core/nav": "^6.2.4",
+		"@ctx-core/nav": "^6.2.6",
 		"@ctx-core/object": "^3.3.0",
 		"@ctx-core/sapper": "^5.2.18",
 		"@ctx-core/store": "^9.1.6",
