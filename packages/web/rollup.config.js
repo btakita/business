@@ -43,7 +43,6 @@ module.exports = {
 				module: true
 			}),
 		],
-		experimentalCodeSplitting: true,
 	},
 	server: {
 		input: config.server.input(),
@@ -69,8 +68,6 @@ module.exports = {
 		).concat(
 			require('module').builtinModules || Object.keys(process.binding('natives'))
 		),
-		// temporary, pending Rollup 1.0
-		experimentalCodeSplitting: true,
 	},
 	serviceworker: {
 		input: config.serviceworker.input(),

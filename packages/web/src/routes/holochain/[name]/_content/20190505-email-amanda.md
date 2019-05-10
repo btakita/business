@@ -12,8 +12,9 @@ Regardless of our future relationship, we are excited about the developments wit
 
 <!-- ## Intention -->
 <h2>
-	<img src="/icons/history-solid.svg?style=fill:grey;" alt="Intention" rel=prefetch />
+	<img src="/icons/history-solid.svg?style=fill:grey;" alt="Intention" rel="prefetch" />
 	Intention
+	<a class="hide" href="/icons/history-solid.svg?style=fill:grey;" rel="prefetch"></a>
 </h2>
 
 The intention of our offering was as follows.
@@ -31,8 +32,9 @@ Tracy is to be an addition to our offering, rather than the focus.
 
 <!-- ## Domain Language & Patterns -->
 <h2>
-	<img src="/icons/language-solid.svg?style=fill:grey;" alt="Domain Language & Patterns" rel=prefetch />
+	<img src="/icons/language-solid.svg?style=fill:grey;" alt="Domain Language & Patterns" rel="prefetch" />
 	Domain Language & Patterns
+	<a class="hide" href="/icons/language-solid.svg?style=fill:grey;" rel="prefetch"></a>
 </h2>	
 
 I face some similar challenges to Holochain.
@@ -59,8 +61,9 @@ I have a couple of blog posts describing naming convention that adheres to the g
 
 <!-- ## Code -->
 <h2>
-	<img src="/icons/code-solid.svg?style=fill:grey;" alt="Code" rel=prefetch />
+	<img src="/icons/code-solid.svg?style=fill:grey;" alt="Code" rel="prefetch" />
 	Code
+	<a class="hide" href="/icons/code-solid.svg?style=fill:grey;" rel="prefetch"></a>
 </h2>	
 
 I have created the <a target="_blank" href="https://github.com/ctx-core/ctx-core">ctx-core</a> library,
@@ -91,6 +94,7 @@ My core libraries serve as the best indicator of example of my ability to archit
 <h2>
 	<img src="/icons/sync-solid.svg?style=fill:grey;" alt="Technical Alignment"/>
 	Technical Alignment
+	<a class="hide" href="/icons/sync-solid.svg?style=fill:grey;" rel="prefetch"></a>
 </h2>
 
 I also have a General Systems Theory model to my practice.
@@ -101,6 +105,7 @@ General Systems Theory finds patterns across all systems & much headway is gaine
 <h2>
 	<img src="/icons/laptop-code-solid.svg?style=fill:grey;" alt="A Quick & Rough Example of Development Process"/>
 	A Quick & Rough Example of Development Process
+	<a class="hide" href="/icons/laptop-code-solid.svg?style=fill:grey;" rel="prefetch"></a>
 </h2>
 
 I am grateful for our investigation.
@@ -140,8 +145,9 @@ This is a work in progress & I'm looking for collaboration & investment,
 	
 <!-- ## Custom Software -->
 <h2>
-	<img src="/icons/cogs-solid.svg?style=fill:grey;" alt="Custom Software" rel=prefetch />
+	<img src="/icons/cogs-solid.svg?style=fill:grey;" alt="Custom Software" rel="prefetch" />
 	Custom Software
+	<a class="hide" href="/icons/cogs-solid.svg?style=fill:grey;" rel="prefetch"></a>
 </h2>
 
 The advantage to using custom software, coupled with a framework that enables rapid iteration,
@@ -149,8 +155,9 @@ The advantage to using custom software, coupled with a framework that enables ra
 	
 <!-- ## Potentialities -->
 <h2>
-	<img src="/icons/lightbulb-regular.svg?style=fill:grey;" alt="Potentialities" rel=prefetch />
+	<img src="/icons/lightbulb-regular.svg?style=fill:grey;" alt="Potentialities" rel="prefetch" />
 	Potentialities
+	<a class="hide" href="/icons/lightbulb-regular.svg?style=fill:grey;" rel="prefetch"></a>
 </h2>
 
 There are many potential avenues of innovation, connectedness, neural growth.
@@ -171,6 +178,9 @@ Sincerely, \
 Brian
 
 <style>
+	.prefetch {
+		display: none;
+	}
 	h2 img {
 		width: 1rem;
 		height: 1rem;
