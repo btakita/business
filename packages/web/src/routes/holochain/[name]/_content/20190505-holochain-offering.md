@@ -1,15 +1,3 @@
-Dear Amanda,
-
-Thank you for your offer re: compensation for our work up to date.
-We go the extra mile for any of our paying clients.
-In this case, we are willing & able to consult without charge on any concepts
-	that have been presented in the
-	<a target="_blank" href="http://holochain-developer-prototype.surge.sh/">holochain-developer-prototype</a>
-	demo.
-If there is a contract between Holochain & us, we are also willing to waive this charge.
-Regardless of our future relationship, we are excited about the developments within the Holochain ecosystem
-	and will continue to follow & participate.
-
 <!-- ## Intention -->
 <h2>
 	<img src="/icons/history-solid.svg?style=fill:grey;" alt="Intention" rel="prefetch" />
