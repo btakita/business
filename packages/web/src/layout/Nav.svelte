@@ -17,6 +17,7 @@
 	register__project_diagram()
 	register__sun_solid()
 	register__moon_regular()
+	$: tech_selected = $__path__sapper.startsWith('/tech')
 	$: holochain_selected = $__path__sapper.startsWith('/holochain')
 </script>
 
@@ -26,6 +27,11 @@
 		<Item__Nav href="/" class="container__logo">
 			<Icon name="project-diagram" alt="@briantakita-business"></Icon>
 		</Item__Nav>
+		<Item__Nav
+			href="/tech/"
+			selected="{tech_selected}"
+			class="child_nav"
+		>Tech</Item__Nav>
 		<Item__Nav
 			href="/holochain/"
 			selected="{holochain_selected}"
