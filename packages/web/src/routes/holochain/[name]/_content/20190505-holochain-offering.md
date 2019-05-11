@@ -163,7 +163,7 @@ A Meta-Philosophy-backed domain language methodology ensures framework developme
 	while facilitating precise movement of abstraction to the appropriate library.
 
 Sincerely, \
-Brian
+Brian Takita
 
 <style>
 	.prefetch {
