@@ -14,3 +14,10 @@ If there is an idea, feature suggestion, or bug you want to talk about,
 	<a target="_blank" href="https://github.com/btakita/business/issues">create an issue on Github</a>.
 
 To browse the content correspondence, use the ↑ navigation above.
+
+## Design Considerations
+
+This app has a minimalist design, focused on the content.
+The application logic & information architecture is currently being developed.
+This app is in dark mode by default to place less strain on the eyes,
+	which is a factor when reading long passages of documentation.
