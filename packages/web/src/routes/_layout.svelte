@@ -9,21 +9,21 @@
 </script>
 
 <script>
-	import { getSession, page } from '@sapper/app'
-	import { __session__sapper } from '@ctx-core/sapper/store'
+	import { stores } from '@sapper/app'
 	import { __VERSION } from '@ctx-core/env/store'
-	import { __page__sapper } from '@ctx-core/sapper/store'
+	import { __page__sapper, __preloading__sapper, __session__sapper } from '@ctx-core/sapper/store'
 	import { _no__dom } from '@ctx-core/dom'
 	import { _html__webfont__fout } from '@ctx-core/google/html'
 	import { __class__layout, __prepend__footer } from '../layout/store'
 	import { __theme__invert } from '@ctx-core/theme/store'
 	import Header from '../layout/Header.svelte'
 	import Footer from '../layout/Footer.svelte'
+	const { page, preloading, session } = stores()
 	export let version
-	const session = getSession()
 	__VERSION.set(version)
-	__session__sapper.set(session)
 	$: __page__sapper.set($page)
+	$: __preloading__sapper.set($preloading)
+	$: __session__sapper.set($session)
 	$: $page, __prepend__footer.set('')
 </script>
 
