@@ -1,12 +1,21 @@
 <script context="module">
 	export async function preload({ query, params }) {
-		const response__version = await this.fetch('/version')
-		const version = (await response__version.text()).trim()
-		const response__a1__name__root__content = await this.fetch('/nav/json')
-		const {
-			a1__name__root__content,
-			a1__path__root__content,
-		} = await response__a1__name__root__content.json()
+		const [response__version, response__a1__name__root__content] =
+			await Promise.all([
+				this.fetch('/version'),
+				this.fetch('/nav/json'),
+			])
+		const [
+			version__,
+			{
+				a1__name__root__content,
+				a1__path__root__content,
+			}
+		] = await Promise.all([
+			response__version.text(),
+			response__a1__name__root__content.json(),
+		])
+		const version = version__.trim()
 		return {
 			version,
 			a1__name__root__content,
