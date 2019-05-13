@@ -27,8 +27,6 @@
 	$: idx__selected =
 		_idx($__a1__path__root__content,
 			path__root__content => $__path__sapper.startsWith(path__root__content))
-	$: tech_selected = $__path__sapper.startsWith('/tech')
-	$: holochain_selected = $__path__sapper.startsWith('/holochain')
 </script>
 
 <Handle__Nav class="Handle__Nav__Holochain"></Handle__Nav>
