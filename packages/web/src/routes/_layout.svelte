@@ -1,9 +1,16 @@
 <script context="module">
 	export async function preload({ query, params }) {
-		const response = await this.fetch('/version')
-		const version = (await response.text()).trim()
+		const response__version = await this.fetch('/version')
+		const version = (await response__version.text()).trim()
+		const response__a1__name__root__content = await this.fetch('/g/json')
+		const {
+			a1__name__root__content,
+			a1__path__root__content,
+		} = await response__a1__name__root__content.json()
 		return {
-			version
+			version,
+			a1__name__root__content,
+			a1__path__root__content,
 		}
 	}
 </script>
@@ -15,16 +22,21 @@
 	import { _no__dom } from '@ctx-core/dom'
 	import { _html__webfont__fout } from '@ctx-core/google/html'
 	import { __class__layout, __prepend__footer } from '../layout/store'
+	import { __a1__name__root__content, __a1__path__root__content } from '../content/store'
 	import { __theme__invert } from '@ctx-core/theme/store'
 	import Header from '../layout/Header.svelte'
 	import Footer from '../layout/Footer.svelte'
 	const { page, preloading, session } = stores()
 	export let version
+	export let a1__name__root__content
+	export let a1__path__root__content
 	__VERSION.set(version)
 	$: __page__sapper.set($page)
 	$: __preloading__sapper.set($preloading)
 	$: __session__sapper.set($session)
 	$: $page, __prepend__footer.set('')
+	$: __a1__name__root__content.set(a1__name__root__content)
+	$: __a1__path__root__content.set(a1__path__root__content)
 </script>
 
 {#if _no__dom()}
