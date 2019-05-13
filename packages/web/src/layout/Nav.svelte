@@ -2,6 +2,12 @@
 	import { __path__sapper } from '@ctx-core/sapper/store'
 	import { __path__home } from '../route/store'
 	import {
+		__a1__name__root__content,
+		__a1__path__root__content,
+	} from '../content/store'
+	import { __click__spread__route__fix } from '../content/lib'
+	import { _idx } from '@ctx-core/array'
+	import {
 		__theme__invert,
 		invert__theme,
 	} from '@ctx-core/theme/store'
@@ -17,6 +23,10 @@
 	register__project_diagram()
 	register__sun_solid()
 	register__moon_regular()
+	let idx__selected
+	$: idx__selected =
+		_idx($__a1__path__root__content,
+			path__root__content => $__path__sapper.startsWith(path__root__content))
 	$: tech_selected = $__path__sapper.startsWith('/tech')
 	$: holochain_selected = $__path__sapper.startsWith('/holochain')
 </script>
@@ -27,16 +37,14 @@
 		<Item__Nav href="/" class="container__logo">
 			<Icon name="project-diagram" alt="@briantakita-business"></Icon>
 		</Item__Nav>
-		<Item__Nav
-			href="/tech/"
-			selected="{tech_selected}"
-			class="child_nav"
-		>Tech</Item__Nav>
-		<Item__Nav
-			href="/holochain/"
-			selected="{holochain_selected}"
-			class="child_nav"
-		>Holochain</Item__Nav>
+		{#each $__a1__name__root__content as name__root__content,idx}
+			<Item__Nav
+				href="{$__a1__path__root__content[idx]}"
+				selected="{idx__selected === idx}"
+				class="child_nav"
+				on:click="{__click__spread__route__fix}"
+			>{name__root__content}</Item__Nav>
+		{/each}
 		<div class="theme">
 			<a
 				href="."
