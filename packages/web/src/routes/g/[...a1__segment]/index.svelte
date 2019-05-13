@@ -13,7 +13,6 @@
 
 <script>
 	import { __session__sapper } from '@ctx-core/sapper/store'
-	import { __click__spread__route__fix } from '../../../content/lib'
 	import A__Edit from '../../../content/A__Edit.svelte'
 	export let path__content
 	export let path__segment
@@ -25,7 +24,7 @@
 	<table>
 		{#each a1__name as name}
 			<tr>
-				<td><a href="/g/{path__segment}/{name}" on:click="{__click__spread__route__fix}">{name}</a></td>
+				<td><a href="/g/{path__segment}/{name}">{name}</a></td>
 				<td><A__Edit href="{path__content}/{name}"></A__Edit></td>
 			</tr>
 		{/each}
