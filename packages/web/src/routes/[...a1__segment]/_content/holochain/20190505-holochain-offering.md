@@ -56,7 +56,7 @@ I have a couple of blog posts describing naming convention that adheres to the g
 
 I have created the <a target="_blank" href="https://github.com/ctx-core/ctx-core">ctx-core</a> library,
 	which is a composable monorepo used in several of my projects.
-Currently, the ctx-core monorepo manages 130 packages, which are opportunistically extracted.
+Currently, the **ctx-core monorepo manages 130 packages**, which are opportunistically extracted.
 A key for reuse is to primarily use functions & Higher Order Functions to transform data.
 This is opposed to Object Oriented programming, tightly coupling data with functions,
 	creates incidental complexity & reduces reuse potential.
@@ -89,8 +89,8 @@ An ecosystem developer could develop software for & run qualitative experiments 
 The synthesis created provides an intuitive model to the complexities of a development ecosystem,
 	tested with the logic of code, & the feedback of creating software.
 
-Effective techniques in the small scale & can result in effective management
-	of hundreds or even thousands of packages & apps concurrently.
+Effective techniques in the small scale are necessary for the **effective concurrent management
+	of hundreds or even thousands of packages & apps**.
 
 <!-- ## Core Libraries -->
 <h2>
