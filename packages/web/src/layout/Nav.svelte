@@ -5,7 +5,6 @@
 		__a1__name__root__content,
 		__a1__path__root__content,
 	} from '../content/store'
-	import { __click__spread__route__fix } from '../content/lib'
 	import { _idx } from '@ctx-core/array'
 	import {
 		__theme__invert,
@@ -40,7 +39,6 @@
 				href="{$__a1__path__root__content[idx]}"
 				selected="{idx__selected === idx}"
 				class="child_nav"
-				on:click="{__click__spread__route__fix}"
 			>{name__root__content}</Item__Nav>
 		{/each}
 		<div class="theme">
