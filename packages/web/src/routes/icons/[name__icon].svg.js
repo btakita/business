@@ -7,6 +7,7 @@ import {
 	register__language_solid,
 	register__laptop_code_solid,
 	register__lightbulb_regular,
+	register__sitemap_solid,
 	register__sync_solid,
 } from '@ctx-core/font-awesome'
 register__code_solid()
@@ -15,6 +16,7 @@ register__history_solid()
 register__language_solid()
 register__laptop_code_solid()
 register__lightbulb_regular()
+register__sitemap_solid()
 register__sync_solid()
 export const get = _get(async (req, res) => {
 	res.setHeader('Cache-Control', dev ? 'no-cache' : 'max-age=600')

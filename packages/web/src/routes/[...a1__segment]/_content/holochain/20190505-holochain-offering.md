@@ -56,6 +56,11 @@ I have a couple of blog posts describing naming convention that adheres to the g
 
 I have created the <a target="_blank" href="https://github.com/ctx-core/ctx-core">ctx-core</a> library,
 	which is a composable monorepo used in several of my projects.
+Currently, the ctx-core monorepo manages 130 packages, which are opportunistically extracted.
+A key for reuse is to primarily use functions & Higher Order Functions to transform data.
+This is opposed to Object Oriented programming, tightly coupling data with functions,
+	creates incidental complexity & reduces reuse potential.
+
 During this development, I have formed techniques to develop & reuse:
 
 * application code
@@ -69,6 +74,22 @@ My applicable experience lies crafting solutions that scale with complexity, int
 	across the organization's domain.
 While this practice is relatively young, I have obtained knowhow in creating a complex ecosystem of reusable
 	apps, components, & services which can be reused as a catalog of starter projects varying in domain specificity.
+
+### Simple is the foundation of Complex
+
+An emerging principle is effective simple applications form the perennial foundation
+	to effective complex applications.
+In praxis, maintaining simple apps concurrently with complex apps leads to an effective architecture tested
+	with various levels of scale.
+Testing with scale forms evidence of the universality of concepts, which can be applied to open system,
+	such as tech, markets, social dynamics, etc.
+
+<!-- ## Core Libraries -->
+<h2>
+	<img src="/icons/sitemap-solid.svg?style=fill:grey;" alt="Core Libraries"/>
+	Core Libraries
+	<a class="hide" href="/icons/sitemap-solid.svg?style=fill:grey;" rel="prefetch"></a>
+</h2>
 
 My core libraries serve as the best indicator of example of my ability to architect composable systems that have:
 
