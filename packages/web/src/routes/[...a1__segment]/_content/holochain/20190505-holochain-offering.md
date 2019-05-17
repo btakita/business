@@ -84,6 +84,14 @@ In praxis, maintaining simple apps concurrently with complex apps leads to an ef
 Testing with scale forms evidence of the universality of concepts, which can be applied to open system,
 	such as tech, markets, social dynamics, etc.
 
+An ecosystem developer could develop software for & run qualitative experiments on development workflows
+	based on a multitude of development scenarios.
+The synthesis created provides an intuitive model to the complexities of a development ecosystem,
+	tested with the logic of code, & the feedback of creating software.
+
+Effective techniques in the small scale & can result in effective management
+	of hundreds or even thousands of packages & apps concurrently.
+
 <!-- ## Core Libraries -->
 <h2>
 	<img src="/icons/sitemap-solid.svg?style=fill:grey;" alt="Core Libraries"/>
