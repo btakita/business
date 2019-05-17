@@ -25,7 +25,7 @@
 		{#each a1__name as name}
 			<tr>
 				<td><a href="/{path__segment}/{name}">{name}</a></td>
-				<td><A__Edit href="{path__content}/{name}"></A__Edit></td>
+				<td><A__Edit href="{path__content}/{name}.md"></A__Edit></td>
 			</tr>
 		{/each}
 	</table>
@@ -33,5 +33,15 @@
 
 {#if content__md}
 	{@html content__md.html}
-	<A__Edit href="{path__content}"></A__Edit>
+	<A__Edit href="{path__content}.md"></A__Edit>
 {/if}
+
+<style type="text/scss">
+	table {
+		tr {
+			td {
+				padding: 0.2rem 0.4rem;
+			}
+		}
+	}
+</style>
