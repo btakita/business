@@ -146,6 +146,7 @@ I engaged in a process of concurrent development between the three repositories 
 I also used
 	<a target="_blank" href="https://lerna.js.org/">lerna.js</a> to manage the monorepo,
 	<a target="_blank" href="https://direnv.net/">direnv</a>,
+	<a target="_blank" href="https://github.com/tmux/tmux/wiki">tmux</a>,
 	& custom scripts.
 This is a use case of developing multiple apps & libraries concurrently, which I'm happy to provide a
 	free code review with anybody on your team who is interested.
