@@ -15,11 +15,11 @@
 	"dependencies": {
 		"@ctx-core/dom": "^5.1.4",
 		"@ctx-core/env": "^6.0.22",
-		"@ctx-core/font-awesome": "^9.0.5",
+		"@ctx-core/font-awesome": "^9.0.6",
 		"@ctx-core/function": "^7.1.0",
 		"@ctx-core/google": "^4.4.13",
 		"@ctx-core/markdown": "^3.2.1",
-		"@ctx-core/nav": "^6.3.11",
+		"@ctx-core/nav": "^6.3.12",
 		"@ctx-core/object": "^4.1.0",
 		"@ctx-core/sapper": "^5.4.6",
 		"@ctx-core/sass": "^6.0.3",
