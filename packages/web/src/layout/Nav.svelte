@@ -13,15 +13,9 @@
 	import Handle__Nav from '@ctx-core/nav/Handle__Nav.html'
 	import Content__Nav from '@ctx-core/nav/Content__Nav.html'
 	import Item__Nav from '@ctx-core/nav/Item__Nav.html'
-	import {
-		register__project_diagram,
-		register__sun_solid,
-		register__moon_regular,
-	} from '@ctx-core/font-awesome'
-	import Icon from '@ctx-core/font-awesome/Icon.html'
-	register__project_diagram()
-	register__sun_solid()
-	register__moon_regular()
+	import FA_project_diagram_solid from '@ctx-core/font-awesome/ui/FA-project-diagram-solid.html'
+	import FA_sun_solid from '@ctx-core/font-awesome/ui/FA-sun-solid.html'
+	import FA_moon_regular from '@ctx-core/font-awesome/ui/FA-moon-regular.html'
 	let idx__selected
 	$: idx__selected =
 		_idx($__a1__path__root__content,
@@ -32,7 +26,7 @@
 <div class="container__Content__Nav" class:path__home="{$__path__home}">
 	<Content__Nav>
 		<Item__Nav href="/" class="container__logo">
-			<Icon name="project-diagram" alt="@briantakita-business"></Icon>
+			<FA_project_diagram_solid alt="@briantakita-business"></FA_project_diagram_solid>
 		</Item__Nav>
 		{#each $__a1__name__root__content as name__root__content,idx}
 			<Item__Nav
@@ -45,7 +39,12 @@
 			<a
 				href="."
 				on:click|preventDefault={invert__theme}
-			><Icon name="{$__theme__invert ? 'sun-solid' : 'moon-regular'}"></Icon></a>
+			>
+				{#if $__theme__invert}
+					<FA_sun_solid></FA_sun_solid>
+				{:else}
+					<FA_moon_regular></FA_moon_regular>
+				{/if}
 		</div>
 	</Content__Nav>
 </div>
